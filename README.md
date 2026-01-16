@@ -12,4 +12,4 @@ Estes desafios fazem parte da minha preparação para o mercado de desenvolvimen
 1. **Antecessor e Sucessor**: Manipulação de números inteiros.
 2. **Sorteador de Números**: Uso da função `rand()`.
 3. **Conversor de Moedas v1.0**: Formatação de moedas e cálculos simples.
-4. **Analisador de Número Real**: Separação de parte inteira e fracionária usando Typecasting.
+5. **Analisador de Número Real**: Separação de parte inteira e fracionária usando Typecasting.
