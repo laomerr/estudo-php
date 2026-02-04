@@ -1,15 +1,10 @@
 <?php 
 
-    $nr = $_GET["numero"];
+    $nr = $_GET["numero"] ?? 0;
     $inteiro = (int) $nr;
     $fracao = $nr - $inteiro;
     $fracao_formatado = number_format($fracao, 3, ",", ".");
-
-
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -22,13 +17,17 @@
 <body>
 
     <main>
-        <p><h1>Analisador de Número Real</h1></p>
+        <h1>Analisador de Número Real</h1>
+
         <p>Analisando o número <strong><?= $nr ?></strong> informado pelo usuário:</p>
-        a parte inteira do numero é <strong><?= $inteiro ?></strong>
-        <br>
-        a parte fracionária do numero é <strong><?= $fracao_formatado ?></strong>
-        <br><br>
+
+        <ul>    
+            <li>a parte inteira do numero é <strong><?= $inteiro ?></strong></li>
+            <li>a parte fracionária do numero é <strong><?= $fracao_formatado ?></strong></li>  
+        </ul>
+        
         <button onclick="javascript:history.go(-1)">&#x2b05; Voltar</button>
+        
     </main>
 
     

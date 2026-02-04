@@ -5,7 +5,6 @@
             $resultado_formatado = number_format($dolar, 2, ",", ".");
 ?>
 
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
